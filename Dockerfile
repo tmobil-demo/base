@@ -1,7 +1,7 @@
 FROM centos:7
 
 MAINTAINER Jindřich Káňa <jindrich.kana@gmail.com>
-LABEL Vendor="kanaajin"
+LABEL Vendor="Demo pro T-Mobile"
 
 RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm \
         &&  yum -y --setopt=tsflags=nodocs update \
