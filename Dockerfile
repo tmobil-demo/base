@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:6
 
 MAINTAINER Jindřich Káňa <jindrich.kana@gmail.com>
 LABEL Vendor="Demo pro T-Mobile"
